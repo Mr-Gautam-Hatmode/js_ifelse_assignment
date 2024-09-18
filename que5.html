@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-5</title>
+    
+    <script>
+        let monday=1;
+        let tuesday=2;
+        let wednesday=3;
+        let thursday=4;
+        let friday=5;
+        let saturday=6;
+        let sunday=7;
+
+        let dayNum=parseInt(prompt("Enter number between 1 to 7:"));
+
+        if(dayNum>0 && dayNum<=7)
+        {
+            if(dayNum==7)
+            {
+                console.log(dayNum +" is equal to the day number of Sunday which is 7.")
+            }
+            else
+            {
+              console.log(dayNum +" is not equal to the day number of Sunday which is 7.")
+            }
+
+        }
+        else
+        {
+            console.log("Please enter number between 1 to 7")
+        }
+    </script>
+
+</head>
+<body>
+    <h2>que5</h2>
+    <p>Write a program that reads a day number and checks if the givenday is a Sunday
+        Day Day-No
+        Monday 1
+        Tuesday 2
+        Wednesday 3
+        Thursday 4
+        Friday 5
+        Saturday 6
+        Sunday 7
+        Explanation:
+        For example,●if the given day number is 7, the output should be True as 7 is equal to the day number of Sunday which is 7.
+        ●if the given day number is 4, the output should be False as 4 isnot equal to the day number of Sunday which is 7.</p>
+</body>
+</html>

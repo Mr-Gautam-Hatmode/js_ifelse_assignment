@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-19</title>
+
+    <script>
+        let str=prompt("Enter the string:");
+        let num=parseInt(prompt("Enter the number:"));
+
+        let str1=str.slice(0,num);
+        // console.log(str1);
+
+        let str2=str.slice(-num);
+        // console.log(str2);
+
+        if(str1 == str2)
+        {
+            console.log("False, first and  last characters are same.");
+        }
+    </script>
+
+</head>
+<body>
+    <h2>que19</h2>
+    <p>Write a pr ogr am that r eads a string and a number N and checks if
+        the fir st N char acter s of the string and the last N char acter s of the
+        string ar e, not the same.
+        Explanation:
+        For example, if the given string is tor onto and the number N 2 ,
+        The fir st 2 char acter s of tor onto ar e to.
+        The last 2 char acter s of tor onto ar e to.
+        The fir st 2 char acter s (to) and the last 2 char acter s (to) ar e the
+        same.
+        The output should be False as the fir st 2 char acter s and the last 2
+        char acter s ar e the same.</p>
+</body>
+</html>
